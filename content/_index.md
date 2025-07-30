@@ -10,11 +10,11 @@ design:
 sections:
   - block: hero
     content:
-      title: Write Docs Fast, Focus on Your Content
-      text: The easy, no-code technical documentation solution your users will love 🎉
+      title: _pipesnake_
+      text: The easy-to-install phylogenomics workflow 🐍
       primary_action:
         text: Get Started
-        url: https://hugoblox.com/templates/details/docs/
+        url: https://iangbrennan.github.io/pipesnake/docs
         icon: rocket-launch
       secondary_action:
         text: Read the docs
@@ -82,16 +82,16 @@ sections:
         - name: Swappable Blocks
           icon: rectangle-group
           description: Build your pages with blocks - no coding required!
-  - block: cta-card
-    content:
-      title: "Start Writing with the #1 Effortless Documentation Platform"
-      text: Hugo Blox Docs Theme brings all your technical knowledge together in a single, centralized knowledge base. Easily search and edit it with the tools you use every day!
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/details/docs/
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
+#  - block: cta-card
+#    content:
+#      title: "Start Writing with the #1 Effortless Documentation Platform"
+#      text: Hugo Blox Docs Theme brings all your technical knowledge together in a single, #centralized knowledge base. Easily search and edit it with the tools you use every day!
+#      button:
+#        text: Get Started
+#        url: https://hugoblox.com/templates/details/docs/
+#    design:
+#      card:
+#        # Card background color (CSS class)
+#        css_class: "bg-primary-700"
+#        css_style: ""
 ---
