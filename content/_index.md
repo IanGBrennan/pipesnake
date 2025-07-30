@@ -75,13 +75,13 @@ sections:
       items:
         - name: Easy
           icon: sparkles
-          description: Download and launch with one command using `nextflow`.
+          description: Download and launch with one command using [`nextflow`](https://www.nextflow.io/).
         - name: Fast
           icon: bolt
           description: Highly efficient and parallelized for quick results, with flexible stop/start points to suit your needs.
         - name: Reproducible
           icon: arrow-path
-          description: Automatic reporting of software and usage statistics, 
+          description: Automatic reporting of software and usage statistics, cached results, and easy-to-resume runs. 
 #        - name: Optimized SEO
 #          icon: magnifying-glass
 #          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of #SEO and syndication.
