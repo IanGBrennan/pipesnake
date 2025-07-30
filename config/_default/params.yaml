@@ -38,7 +38,7 @@ header:
     logo:
       text: ""
       # Logo filename in `assets/media/` folder
-      filename: "logo.svg"
+      filename: "pipesnake_tiny.png"
     button:
       enable: true
       text: "Get Started"
@@ -49,7 +49,8 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} My Company. This work is licensed under {license}'
+#    notice: '© {year} My Company. This work is licensed under {license}'
+    notice: 'This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -68,7 +69,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/HugoBlox/hugo-blox-builder/'
+    url: 'https://github.com/AusARG/pipesnake'
     content_dir: 'starters/documentation/content'
     branch: 'main'
   feedback:
@@ -78,7 +79,7 @@ features:
   comment:
     provider: ''
     giscus:
-      repo: ''
-      repo_id: ''
+      repo: 'pipesnake'
+      repo_id: 'AusARG/pipesnake'
       category: ''
       category_id: ''
