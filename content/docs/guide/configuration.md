@@ -1,54 +1,37 @@
 ---
-title: Configuration
+title: Tutorial I
 weight: 2
 ---
 
-The configuration of your site can be found in `config/_default/`.
 
-<!--more-->
+## Running Test Data
 
-## Full Documentation
+You can simultaneously download the pipeline and run a test example with a single command. 
 
-See https://docs.hugoblox.com/getting-started/customize/
-
-## Navigation
-
-### Menu
-
-See https://docs.hugoblox.com/getting-started/customize/#menu-items
-
-## Left Sidebar
-
-Links are automatically generated from the structure of your content directory. Simply add a folder to nest a page.
-
-### Extra Links
-
-Additional links can be added under the `sidebar` section of your `config/_default/menus.yaml`:
-
-```yaml
-menu:
-  sidebar:
-    - name: "Need help?"
-      params:
-        type: separator
-      weight: 1
-    - name: "A page"
-      pageRef: "/page-filename-here"
-      weight: 2
-    - name: "An external link ↗"
-      url: "https://hugoblox.com"
-      weight: 3
+<details>
+<summary>Using Docker</summary>
+   
+```
+nextflow run ausarg/pipesnake -profile test,docker --outdir <OUTDIR>
 ```
 
-## Right Sidebar
+</details>
 
-A table of contents is automatically generated from the headings your Markdown file.
+<details>
+<summary>Using Singularity</summary>
 
-It can optionally be disabled by setting `toc: false` in the front matter of a page:
+If you are using `singularity`, first use [`nf-core download`](https://nf-co.re/tools/#downloading-pipelines-for-offline-use) to download the singularity images for the necessary software before running the pipeline. If you don't already have `nf-core` ([`nf-core/tools`](https://nf-co.re/tools)) installed, you can do that easily in a variety of ways (e.g. conda, pip, etc), [see here](https://nf-co.re/tools#installation). 
 
-```yaml
----
-title: My Page
-toc: false
----
-```
+   ```
+   nf-core download ausarg/pipesnake
+   ```
+Once you have installed `pipesnake` with `nf-core` you can run the test. 
+   ```
+   nextflow run ausarg/pipesnake -profile test,singularity --outdir <OUTDIR>
+   ```
+</details>
+
+### Results
+
+Depending on your compute resources, the test data might take up to 10 minutes, but generally less. Once it has completed, we can check out all the outputs. 
+
