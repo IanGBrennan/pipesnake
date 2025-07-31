@@ -10,7 +10,7 @@ If you'd like to run the pipeline locally, follow the installation instructions 
 
 </details>
 
-## Installing `nextflow`
+## Installing _nextflow_
 <details>
 <summary>nextflow Instructions</summary>
 
@@ -48,7 +48,7 @@ Feel free to move the nextflow file to the directory of your choice, and add it 
 
 
 
-## Installing Docker or Singularity
+## Installing _Docker_ or _Singularity_
 <details>
 <summary>Container Instructions</summary>
 
@@ -67,9 +67,9 @@ If you're running into trouble installing *Singularity*, try following [these in
 
 </details>
 
-## Installing `pipesnake`
+## Installing _pipesnake_
 
-Once you've got nextflow and your container operator working, installing pipesnake is as easy as:
+Once you've got _nextflow_ and your container operator working, install ***pipesnake*** with:
 ```
 nextflow pull ausarg/pipesnake
 ```

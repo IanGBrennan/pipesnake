@@ -7,22 +7,59 @@ design:
   # Default section spacing
   spacing: "0rem"
 
-#image_data:
-#  logo: "/assets/pipesnake_Logo.png"
-
-
 sections:
+
+#  - block: cta-image-paragraph
+#    id: solutions
+#    content:
+#      items:
+##        - title: 
+##          text: 
+##          feature_icon: check
+##          features:
+##          # Upload image to `assets/media/` and reference the filename here
+##          image: pipesnake_Logo.png
+##          button:
+##            text: Get Started
+##            url: https://hugoblox.com/templates/
+#        - title: _pipesnake_
+#          text: The easy-to-install phylogenomics workflow 🐍
+#          image: pipesnake_Logo.png
+##         features:
+##            - "Easy, Fast, Reproducible"
+##            - "Fast"
+##            - "Reproducible"
+#          # Upload image to `assets/media/` and reference the filename here
+#          button:
+#            text: Get Started
+#            url: https://iangbrennan.github.io/pipesnake2/docs
+
+
   - block: hero
     content:
-      logo:
-        text: ""
-        filename: "pipesnake_tiny.png"
       title: _pipesnake_
-      text: The easy-to-install phylogenomics workflow 🐍
+      image:
+        # Reference an image in your `assets/media/` folder
+        filename: pipesnake_Logo.png
+      text: An all-in-one phylogenomics workflow 🐍
       primary_action:
         text: Get Started
         url: https://iangbrennan.github.io/pipesnake2/docs
         icon: rocket-launch
+    design:
+#      css_class: dark
+      image:
+        filename: pipesnake_Logo.png
+#      background:
+#        color: black
+#        image:
+#          # Add your image background to `assets/media/`.
+#          filename: pipesnake_Logo.png
+#          filters:
+#            brightness: 1.0
+#          size: cover
+#          position: center
+#          parallax: false
 #      secondary_action:
 #        text: Read the docs
 #        url: /docs/
@@ -65,6 +102,12 @@ sections:
 #      # Reduce spacing
 #      spacing:
 #        padding: ["1rem", 0, "1rem", 0]
+    design:
+      spacing:
+        padding: [0, 0, 0, 0]
+        margin: [0, 0, 0, 0]
+      # For full-screen, add `min-h-screen` below
+
 
   - block: features
     id: features
@@ -104,3 +147,4 @@ sections:
 #        css_class: "bg-primary-700"
 #        css_style: ""
 ---
+
