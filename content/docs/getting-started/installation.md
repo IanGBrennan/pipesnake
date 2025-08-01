@@ -74,4 +74,32 @@ Once you've got _nextflow_ and your container operator working, install ***pipes
 nextflow pull ausarg/pipesnake
 ```
 
+You can test that your installation worked (this will end with a "Validation of pipeline" error, ignore it):
+```
+nextflow run ausarg/pipesnake
+
+N E X T F L O W   ~  version 24.10.0
+
+Launching `pipesnake_dev_28072025/main.nf`
+
+------------------------------------------
+  ausarg/pipesnake v1.2
+------------------------------------------
+...
+
+```
+
+## Where is it?
+Typically, ***pipesnake*** will be installed in ` ~/.nextflow/assets/ausarg/pipesnake `.
+If you want to work from a different directory, you can clone the repository and work from there.
+```
+git clone https://github.com/AusARG/pipesnake.git ~/Desktop/pipesnake
+Cloning into 'Desktop/pipesnake'...
+
+# test the install
+nextflow run ~/Desktop/pipesnake
+```
+
+
+
 

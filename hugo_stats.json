@@ -5,6 +5,7 @@
       "a",
       "article",
       "aside",
+      "blockquote",
       "body",
       "br",
       "button",
@@ -56,6 +57,7 @@
       "thead",
       "title",
       "tr",
+      "u",
       "ul"
     ],
     "classes": [
@@ -406,16 +408,19 @@
     ],
     "ids": [
       "content-and-options",
+      "copy-the-example-data-across",
       "directory-----output",
       "docs-navigation",
       "example",
       "features",
       "folder-structure",
+      "follow-the-snake",
       "hide-button",
       "hugo-file-naming-convention",
       "installing-docker-or-singularity",
       "installing-nextflow",
       "installing-pipesnake",
+      "make-a-new-directory-and-move-into-it",
       "monitoring-resource-usage",
       "monitoring-usage",
       "moon",
@@ -427,7 +432,9 @@
       "results",
       "running-end-to-end",
       "running-test-data",
+      "running-the-example-data",
       "running-the-example-locally",
+      "sample-sheets-and-target-files",
       "search",
       "search_toggle",
       "section-hero",
@@ -440,13 +447,19 @@
       "show-button",
       "site-header",
       "spoiler-0",
+      "stage-end-prg",
+      "stage-from-prg",
+      "startstop-at",
+      "startstop-at-alignments",
+      "startstop-at-prg",
       "step-1",
       "step-2",
       "step-3",
       "sun",
       "top",
       "usage",
-      "warnings"
+      "warnings",
+      "where-is-it"
     ]
   }
 }
