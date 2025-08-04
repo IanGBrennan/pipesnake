@@ -373,6 +373,9 @@
       "z-30"
     ],
     "ids": [
+      "advanced-features",
+      "alignment-trimming",
+      "contig-filtering-by-read-depth",
       "features",
       "follow-the-snake",
       "hide-button",
@@ -383,7 +386,11 @@
       "moon",
       "nav-menu",
       "nav-toggle",
+      "optional-nextflow-parameters",
+      "optional-pipesnake-parameters",
       "page-bg",
+      "read-filtering",
+      "required-pipesnake-parameters",
       "results",
       "running-end-to-end",
       "running-test-data",
@@ -395,12 +402,15 @@
       "section-markdown",
       "show-button",
       "site-header",
+      "stage-end-alignment",
       "stage-end-prg",
+      "stage-from-alignment",
       "stage-from-prg",
       "startstop-at-alignments",
       "startstop-at-prg",
       "sun",
       "top",
+      "useful-extras",
       "where-is-it"
     ]
   }

@@ -8,6 +8,8 @@ weight: 3
 
 One benefit to using ***pipesnake*** is its flexibility. In this tutorial we'll practice running the pipeline to stop when we have completed making pseudo-reference genomes (PRG) for each sample, and also picking up from a set of PRG files. 
 
+___
+
 <details>
 <summary>--stage end-prg</summary>
 
@@ -24,6 +26,8 @@ run ausarg/pipesnake -profile singularity --input data/ToyData_SampleInfo.csv --
 Importantly your PRG files will be in the `make/` directory!
 
 </details>
+
+___
 
 <details>
 <summary>--stage from-prg</summary>
@@ -47,6 +51,9 @@ Luckily we have a premade version of this in `data/ToyData_SampleInfo_PRG.csv`. 
 nextflow run ausarg/pipesnake -profile singularity --input data/ToyData_SampleInfo_PRG.csv --blat_db data/ToyData_SqCL_25Targets.fasta --stage from-prg --outdir ToyData_from-pr
 ```
 
+<details>
+<summary>need to generate an --input?</summary>
+
 However, if you need to generate one of these for a lot of files, there's a script available in `bin/generate_sample_info.py`. Note, to run properly your samples will need to have `PRG_` prefixed to their file names (e.g. PRG_Delma.fasta). 
 
 ```
@@ -54,5 +61,7 @@ However, if you need to generate one of these for a lot of files, there's a scri
 ```
 
 As in other instances, this will output alignments (`mafft/`), gene trees (`raxml/`), and the species tree (`aster/`)
+
+</details>
 
 </details>
